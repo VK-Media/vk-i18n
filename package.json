@@ -1,0 +1,11 @@
+{
+  "name": "vk-i18n",
+  "version": "1.0.0",
+  "description": "A simple package for adding localization to a React app",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VK Media",
+  "license": "ISC"
+}
