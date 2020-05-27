@@ -1,11 +1,30 @@
 {
-  "name": "vk-i18n",
-  "version": "1.0.0",
-  "description": "A simple package for adding localization to a React app",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "VK Media",
-  "license": "ISC"
+    "name": "vk-i18n",
+    "version": "1.0.0",
+    "description": "A simple package for adding localization to a React app",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/VK-Media/vk-i18n"
+    },
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib/**/*"
+    ],
+    "scripts": {
+        "test": "jest --config jestconfig.json",
+        "build": "tsc",
+        "prepare" : "npm run build",
+        "prepublishOnly" : "npm test",
+        "version" : "git add -A src",
+        "postversion" : "git push && git push --tags"
+    },
+    "author": "VK Media",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/jest": "^25.2.3",
+        "jest": "^26.0.1",
+        "ts-jest": "^26.0.0",
+        "typescript": "^3.9.3"
+    }
 }

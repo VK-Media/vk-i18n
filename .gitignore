@@ -1,1 +1,8 @@
+# Editor & IDE
 .idea/
+
+# Packages
+node_modules/
+
+# Build
+lib
