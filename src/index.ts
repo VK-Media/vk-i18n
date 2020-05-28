@@ -1,1 +1,4 @@
-export const Greeter = (name: string) => `Hello ${name}`;
+import { setLanguage } from './utils/language.utils'
+import { initialize, t } from './utils/setup.utils'
+
+export { setLanguage, initialize, t }
