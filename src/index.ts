@@ -1,4 +1,4 @@
 import { setLanguage } from './utils/language.utils'
-import { initialize, t } from './utils/setup.utils'
+import { initialize } from './utils/setup.utils'
 
-export { setLanguage, initialize, t }
+export { setLanguage, initialize }
