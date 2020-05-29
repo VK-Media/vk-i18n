@@ -2,6 +2,24 @@ import { languages } from '../types/i18n.types'
 import { getConfiguration } from './configuration.utils'
 import { getLanguageFromLocalStorage, setLanguageInLocalStorage } from './localStorage.utils'
 
+export const getTranslations = () => {
+    const configuration = getConfiguration()
+    const language: string = getLanguage()
+    const translationsObjects = configuration.translations
+
+    if (translationsObjects) {
+        if (translationsObjects[language]) {
+            return translationsObjects[language]
+        } else {
+            console.error(`No translations for language: ${language}`)
+        }
+    } else {
+        console.error('No translations objects are set')
+    }
+
+    return null
+}
+
 export const getLanguage = (): string => {
     const language = getLanguageFromLocalStorage()
 

@@ -1,7 +1,7 @@
 import { initialize } from './setup.utils'
 
 test('Initialization', () => {
-    const t = initialize()
+    const initialized = initialize({ translations: { en: { 'test': 'test' } } })
 
-    expect(t).toBeTruthy()
+    expect(initialized).toBeFalsy()
 })

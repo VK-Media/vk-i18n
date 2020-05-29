@@ -13,7 +13,7 @@ export interface ITranslations {
 
 export interface IConfigurationInput {
     fallbackLanguage?: languages
-    translations?: ITranslationsObjects
+    translations: ITranslationsObjects
 }
 
 export interface IConfiguration {
