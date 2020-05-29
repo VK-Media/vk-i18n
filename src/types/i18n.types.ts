@@ -1,6 +1,6 @@
 export enum languages {
-    ENGLISH = 'en',
-    DANISH = 'da'
+    ENGLISH = 'en-US',
+    DANISH = 'da-DK'
 }
 
 export interface ITranslationsObjects {
