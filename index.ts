@@ -1,5 +1,3 @@
-import useTranslation from './hooks/useTranslation'
-import { setLanguage } from './utils/language.utils'
-import { initialize } from './utils/setup.utils'
-
-export { useTranslation, setLanguage, initialize }
+export { initialize } from './utils/setup.utils'
+export { setLanguage } from './utils/language.utils'
+export * as useTranslation from './hooks/useTranslation'
