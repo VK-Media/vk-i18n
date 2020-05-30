@@ -1,8 +1,11 @@
+const path = require('path')
+
 module.exports = {
     mode: 'production',
-    entry: 'index.ts',
+    entry: './index.ts',
     output: {
-        filename: 'index.js'
+        filename: 'index.js',
+        path: path.resolve(__dirname)
     },
     module: {
         rules: [
