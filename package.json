@@ -6,10 +6,11 @@
         "type": "git",
         "url": "https://github.com/VK-Media/vk-i18n"
     },
-    "main": "lib/index.js",
-    "types": "lib/index.d.ts",
+    "main": "index.js",
+    "types": "index.d.ts",
     "files": [
-        "lib/**/*"
+        "**/*.js",
+        "**/*.d.ts"
     ],
     "scripts": {
         "test": "jest --config jestconfig.json",

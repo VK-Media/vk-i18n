@@ -4,5 +4,9 @@
 # Packages
 node_modules/
 
-# Build
-lib
+# Compiled files
+*.js
+*.d.ts
+
+# Mics
+!webpack.config.js
