@@ -1,6 +1,6 @@
 import { getLanguage, getTranslations } from '../utils/language.utils'
 
-const useTranslation = () => {
+export const useTranslation = () => {
     const language = getLanguage()
     const translations = getTranslations()
 
@@ -22,5 +22,3 @@ const useTranslation = () => {
         }
     }
 }
-
-export default useTranslation
