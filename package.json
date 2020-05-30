@@ -1,6 +1,6 @@
 {
     "name": "vk-i18n",
-    "version": "1.2.5",
+    "version": "1.2.6",
     "description": "A simple package for adding localization to a React app",
     "repository": {
         "type": "git",
