@@ -5,8 +5,7 @@
         "declaration": true,
         "outDir": "./",
         "strict": true,
-        "removeComments": true,
-        "sourceMap": true
+        "removeComments": true
     },
     "include": [
         "."
