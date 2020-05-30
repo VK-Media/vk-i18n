@@ -1,4 +1,4 @@
-import { languages } from '../types/i18n.types'
+import { languages } from '../types'
 import { getLanguage, setLanguage } from './language.utils'
 
 test('Language', () => {

@@ -1,4 +1,4 @@
-import { IConfiguration, IConfigurationInput, languages } from '../types/i18n.types'
+import { IConfiguration, IConfigurationInput, languages } from '../types'
 
 const configuration: IConfiguration = {
     fallbackLanguage: languages.ENGLISH

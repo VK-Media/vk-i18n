@@ -1,4 +1,4 @@
-import { languages } from '../types/i18n.types'
+import { languages } from '../types'
 import { getConfiguration } from './configuration.utils'
 import { getLanguageFromLocalStorage, setLanguageInLocalStorage } from './localStorage.utils'
 
